@@ -8,10 +8,7 @@ const router = createBrowserRouter([
 	{
 		path: '/',
 		element: <PublicRoute />,
-		children: [
-			{ path: '/', element: <Home /> },
-			{ path: '/nosotros', element: <About /> },
-		],
+		children: [{ path: '/', element: <Home /> }],
 	},
 ]);
 export default function RoutesDom(_props: unknown): JSX.Element {
