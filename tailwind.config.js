@@ -25,8 +25,8 @@ module.exports = {
 				poppins_light: 'Poppins-Light',
 			},
 			colors: {
-				primary: '#123237',
-				secondary: '#D91A1B',
+				primary: '#000030',
+				secondary: '#00002e',
 				third: '#5D6E71',
 				fourth: '#fff5f5',
 				fifth: '#c4cdd4',
