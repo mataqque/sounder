@@ -2,7 +2,6 @@ import { useEffect, useState } from 'react';
 import { InputSearchDash } from '@/components/common/inputsearchdash/inputsearchdash';
 import { type IList_sidebars, type IMenuSidebar, itemSidebar } from './config';
 import { SidebarSubItems } from './subitems/subitems';
-import { IconAvatar } from '@/components/common/avatar/avatar';
 import { NavLink } from 'react-router-dom';
 
 export const AsideBar = () => {
